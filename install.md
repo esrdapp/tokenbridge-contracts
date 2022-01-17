@@ -6,5 +6,7 @@
 6. npm audit fix  
 7. npm install 
 8. npm run compile
-9. 
+9. mv .envexample .env
+10. update addresses and private key
+11. 
 
