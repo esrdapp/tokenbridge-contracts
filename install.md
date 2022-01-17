@@ -5,4 +5,6 @@
 5. npm install
 6. npm audit fix  
 7. npm install 
+8. npm run compile
+9. 
 
