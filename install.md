@@ -9,9 +9,10 @@
 9. cd deploy
 10. mv .env.example .env
 12. update addresses and private key of .env file
-13. cd ..
-14. docker-compose up -d --build
-15. ./deploy.sh
-16. make note of home and foreign bridge contracts for oracle deployment
+13. update the deploy/src/deploymentUtils.js file if necessary (currently supports HPB network chain 269)
+14. cd ..
+15. docker-compose up -d --build
+16. ./deploy.sh
+17. make note of home and foreign bridge contracts for oracle deployment
 
 
