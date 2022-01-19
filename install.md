@@ -10,7 +10,8 @@
 10. mv .env.example .env
 12. update addresses and private key of .env file
 13. cd ..
-14. ./deploy.sh
+14. docker-compose up -d --build
+15. ./deploy.sh
 
 deploying storage for home validators
 Error: web3 RPC failed: {"code":-32000,"message":"invalid sender"}
