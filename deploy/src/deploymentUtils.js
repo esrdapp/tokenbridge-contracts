@@ -120,8 +120,11 @@ async function sendRawTx({ data, nonce, to, privateKey, url, gasPrice, value }) 
       	  nonce,
       	  gasPrice: Web3Utils.toHex(gasPrice),
       	  gasLimit: Web3Utils.toHex(gas),
+          
+		/* home chain */
 		  chainId: 269,
-      	  to,
+      	  
+	  to,
       	  data,
       	  value
     	}
@@ -131,6 +134,9 @@ async function sendRawTx({ data, nonce, to, privateKey, url, gasPrice, value }) 
     	  nonce,
       	  gasPrice: Web3Utils.toHex(gasPrice),
       	  gasLimit: Web3Utils.toHex(gas),
+		    
+		 /* foreign chain */
+		    chainId: 100,
       	  to,
       	  data,
       	  value
