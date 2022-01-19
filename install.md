@@ -15,4 +15,26 @@
 16. ./deploy.sh
 17. make note of home and foreign bridge contracts for oracle deployment
 
+example successfull deployment:
+
+Deployment of Arbitrary Message Bridge at Foreign completed
+
+
+Deployment has been completed.
+
+
+[   Home  ] HomeBridge: 0x12d9DFD6F845c20DB6220dbDEB32FAD12dc528AD at block 13548847
+[ Foreign ] ForeignBridge: 0x06188d65DF1C18b1E7d29e5D34bF8cc9aEa0E866 at block 20189894
+Contracts Deployment have been saved to `bridgeDeploymentResults.json`
+{
+    "homeBridge": {
+        "address": "0x12d9DFD6F845c20DB6220dbDEB32FAD12dc528AD",
+        "deployedBlockNumber": 13548847
+    },
+    "foreignBridge": {
+        "address": "0x06188d65DF1C18b1E7d29e5D34bF8cc9aEa0E866",
+        "deployedBlockNumber": 20189894
+    }
+}
+
 
