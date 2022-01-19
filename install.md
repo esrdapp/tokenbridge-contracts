@@ -9,7 +9,7 @@
 9. cd deploy
 10. mv .env.example .env
 12. update addresses and private key of .env file
-13. update the deploy/src/deploymentUtils.js file if necessary (currently supports HPB network chain 269)
+13. update the deploy/src/deploymentUtils.js file on lines 125 & 139 if necessary (currently supports HPB network chain 269)
 14. cd ..
 15. docker-compose up -d --build
 16. ./deploy.sh
